@@ -1,0 +1,12 @@
+#CALCULDO {
+    height: 420px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#CALCULDO form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
