@@ -1,12 +1,51 @@
 #CALCULDO {
     height: 420px;
-    width: 380px;
+    width: 360px;
     border: 1px solid black;
     border-radius: 10px;
+    margin: 5%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+
 }
 
 #CALCULDO form {
     height: 100%;
     width: 100%;
     background-color: black;
+    border-radius: 10px;
+}
+
+
+#CALCULDO input[type=textfield] {
+
+    width: 100%;
+
+    border-radius: 10px;
+    height: 25%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0px;
+    outline: none;
+
+}
+
+#calculdo input[type=button] {
+
+    width: 21%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+
+
 }

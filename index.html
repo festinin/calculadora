@@ -12,21 +12,30 @@
 </HEad>
 
 <body>
-    <DIv ID="LOGICA">
-        <DIv></DIv>
-
-    </DIv>
     <div id="CALCULDO">
         <form name="CALCULADORA">
-            <input type="textfield" name="ans" value="" autocomplete="off" readonly>
-
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="+">
-            <input type="button" value="-">
-            <input type="button" value="*">
-            <input type="button" value="=">
+            <input type="textfield" name="ans" id="PANTALLA" value="" autocomplete="off" readonly>
+            <br>
+            <input type="button" value="7" onclick="document.CALCULADORA.ans.value+='7'">
+            <input type="button" value="8" onclick="document.CALCULADORA.ans.value+='8'">
+            <input type="button" value="9" onclick="document.CALCULADORA.ans.value+='9'">
+            <input type="button" value="*" onclick="document.CALCULADORA.ans.value+='*'">
+            <br>
+            <input type="button" value="4" onclick="document.CALCULADORA.ans.value+='4'">
+            <input type="button" value="5" onclick="document.CALCULADORA.ans.value+='5'">
+            <input type="button" value="6" onclick="document.CALCULADORA.ans.value+='6'">
+            <input type="button" value="-" onclick="document.CALCULADORA.ans.value+='-'">
+            <br>
+            <input type="button" value="1" onclick="document.CALCULADORA.ans.value+='1'">
+            <input type="button" value="2" onclick="document.CALCULADORA.ans.value+='2'">
+            <input type="button" value="3" onclick="document.CALCULADORA.ans.value+='3'">
+            <input type="button" value="+" onclick="document.CALCULADORA.ans.value+='+'">
+            <br>
+            <input type="button" value="0" onclick="document.CALCULADORA.ans.value+='0'">
+            <input type="button" value="/" onclick="document.CALCULADORA.ans.value+='/'">
+            <input type="button" value="="
+                onclick="document.CALCULADORA.ans.value=eval(document.CALCULADORA.ans.value)">
+            <input type="button" value="C" onclick="document.CALCULADORA.ans.value=limpiarPantalla()">
         </form>
     </div>
     <script src="CALCULADORA.JS"></script>
